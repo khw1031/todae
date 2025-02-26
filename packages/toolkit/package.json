@@ -1,0 +1,18 @@
+{
+  "name": "@todae/toolkit",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "",
+  "bugs": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khw1031/todae.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@arethetypeswrong/cli": "catalog:"
+  },
+  "scripts": {
+    "attw": "echo 'attw'"
+  }
+}

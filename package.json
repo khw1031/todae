@@ -1,0 +1,21 @@
+{
+  "name": "todae",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "attw": "turbo run attw"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.5.1",
+  "engines": {
+    "node": ">=20.18.3",
+    "pnpm": ">=10.4.1"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "catalog:",
+    "turbo": "catalog:"
+  }
+}
