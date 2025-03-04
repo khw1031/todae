@@ -19,9 +19,6 @@
     "eslint-flat-configs"
   ],
   "exports": {
-    ".": {
-      "import": "./src/eslint.mjs"
-    },
     "./*": {
       "import": "./src/*.mjs"
     }

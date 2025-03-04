@@ -2,8 +2,6 @@
 
 import tseslint from "typescript-eslint";
 
-const typescript = tseslint.config(tseslint.configs.recommended, {
+export default tseslint.config(tseslint.configs.recommended, {
   rules: {},
 });
-
-export default typescript;

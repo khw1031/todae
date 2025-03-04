@@ -4,7 +4,7 @@ import eslint from "@eslint/js";
 import tseslint from "typescript-eslint";
 import globals from "globals";
 
-const eslintJs = tseslint.config(eslint.configs.recommended, {
+export default tseslint.config(eslint.configs.recommended, {
   languageOptions: {
     ecmaVersion: "latest",
     globals: {
@@ -17,5 +17,3 @@ const eslintJs = tseslint.config(eslint.configs.recommended, {
     "no-unused-vars": "off",
   },
 });
-
-export default eslintJs;
