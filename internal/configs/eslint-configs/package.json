@@ -1,0 +1,44 @@
+{
+  "name": "@todae/eslint-configs",
+  "version": "0.0.1-beta.0",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khw1031/todae.git"
+  },
+  "files": [
+    "src",
+    "index.mjs"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-configs",
+    "eslint-flat-config",
+    "eslint-flat-configs"
+  ],
+  "exports": {
+    ".": {
+      "import": "./src/eslint.mjs"
+    },
+    "./*": {
+      "import": "./src/*.mjs"
+    }
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "typescript": "catalog:",
+    "eslint": "catalog:eslint-flat",
+    "globals": "catalog:eslint-flat",
+    "@eslint/js": "catalog:eslint-flat",
+    "typescript-eslint": "catalog:eslint-flat",
+    "eslint-plugin-react": "catalog:eslint-flat",
+    "eslint-config-prettier": "catalog:eslint-flat",
+    "eslint-plugin-react-hooks": "catalog:eslint-flat",
+    "eslint-plugin-tailwindcss": "catalog:eslint-flat",
+    "eslint-config-next": "catalog:nextjs"
+  }
+}

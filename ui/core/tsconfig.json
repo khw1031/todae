@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@todae/ts-configs/react.json",
+  "include": ["index.ts"],
+  "compilerOptions": {
+    "paths": {
+      "@todae/number": ["./number/src"]
+    }
+  }
+}

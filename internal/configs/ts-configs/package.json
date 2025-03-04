@@ -1,0 +1,19 @@
+{
+  "name": "@todae/ts-configs",
+  "version": "0.0.1-beta.0",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khw1031/todae.git"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "tsconfig"
+  ],
+  "dependencies": {
+    "typescript": "catalog:"
+  }
+}
